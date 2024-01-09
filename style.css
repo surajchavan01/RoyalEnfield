@@ -1,0 +1,44 @@
+#HeaderSection{
+    background-color: #0a0a0a;
+}
+#navbarSupportedContent ul li a{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 10px;
+    display: inline-block;
+}
+#navbarSupportedContent ul li a:hover{
+    color: red;
+}
+#navbarSupportedContent ul{
+    margin-left: 180;
+}
+.navbar-brand img{
+    margin: -9px;
+    width: 224px;
+}
+
+#Multipleimg{
+    width: 100%;
+}
+#Multipleimg div img:hover{
+    transform: scale(1.05);
+    transition: ease-in-out 0.5s;
+}
+#Multipleimg div{
+    width: 25%;
+    display:inline-block;
+    margin-left: -4PX;
+}
+#Multipleimg div img{
+    width: 100%;
+}
+#Multipleimg div p{
+    font-size: 16px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    bottom: 70px;
+    padding-left: 26px;
+}
